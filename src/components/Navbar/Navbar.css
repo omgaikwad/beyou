@@ -1,0 +1,17 @@
+.Navbar {
+  background-color: var(--beyou-white);
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 5rem;
+}
+
+.left-navbar-container {
+  margin-left: 10rem;
+}
+.right-navbar-container {
+  margin-left: auto;
+  margin-right: 10rem;
+}

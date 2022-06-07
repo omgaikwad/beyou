@@ -1,0 +1,19 @@
+.signup-form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form {
+  width: 20rem;
+  margin-top: 5rem;
+}
+
+.signup-heading {
+  text-align: center;
+}
+
+.signup-btn {
+  width: 100%;
+}
