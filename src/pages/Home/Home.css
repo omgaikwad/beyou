@@ -1,0 +1,56 @@
+.homeContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "navigation feed feed search";
+  color: white;
+}
+
+.navigationTab {
+  grid-area: navigation;
+  border: 1px solid red;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.navigationContainer {
+  width: 65%;
+  height: 100%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.navigationBtn {
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  color: white;
+  display: flex;
+  gap: 1rem;
+}
+
+.createNewPostBtn {
+  width: 100%;
+  background-color: var(--beyou-primary);
+  color: var(--beyou-white);
+  padding: 8px 8px;
+}
+
+.feed {
+  grid-area: feed;
+  border: 1px solid green;
+  height: 25rem;
+  margin-top: 1rem;
+}
+
+.searchContainer {
+  grid-area: search;
+  border: 1px solid yellow;
+  height: 25rem;
+  margin-top: 1rem;
+}
