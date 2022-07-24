@@ -1,0 +1,32 @@
+.ProfileTab {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  color: white;
+  gap: 4px;
+  width: 100%;
+}
+
+.profileNameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.beyouBtn {
+  background-color: transparent;
+  color: var(--beyou-primary);
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 3rem;
+}
+
+.profileName {
+  font-weight: 500;
+}
+
+.profileUsername {
+  font-size: 14px;
+  color: grey;
+}

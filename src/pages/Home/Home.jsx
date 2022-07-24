@@ -1,6 +1,9 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import "./Home.css";
+import ProfileTab from "../../components/ProfileTab/ProfileTab";
+import CreatePost from "../../components/CreatePost/CreatePost";
+import Post from "../../components/Post/Post";
 
 const Home = () => {
   return (
@@ -29,14 +32,48 @@ const Home = () => {
             <button className="navigationBtn">
               <i class="fa-solid fa-user"></i> Profile
             </button>
-
-            <button className="createNewPostBtn">Create a New Post</button>
           </div>
         </div>
 
-        <div className="feed">Feed</div>
+        <div className="feed">
+          <CreatePost />
 
-        <div className="searchContainer">Search Container</div>
+          <div className="expoloreFeedContainer">
+            <Post />
+            <Post />
+          </div>
+        </div>
+
+        <div className="searchContainer">
+          <div className="followSuggestion">
+            <div className="whoToFollowHeading">
+              <p>Who to follow?</p>
+              <button className="beyouBtn">Show More</button>
+            </div>
+            <div className="followSuggestedUser">
+              <ProfileTab
+                name="Om Gaikwad"
+                userName="OmGaikwad_"
+                includeFollowBtn={true}
+              />
+              <ProfileTab
+                name="Om Gaikwad"
+                userName="OmGaikwad_"
+                includeFollowBtn={true}
+              />
+              <ProfileTab
+                name="Om Gaikwad"
+                userName="OmGaikwad_"
+                includeFollowBtn={true}
+              />
+              <ProfileTab
+                name="Om Gaikwad"
+                userName="OmGaikwad_"
+                includeFollowBtn={true}
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
