@@ -1,11 +1,10 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
-import "./Home.css";
 import ProfileTab from "../../components/ProfileTab/ProfileTab";
-import CreatePost from "../../components/CreatePost/CreatePost";
 import Post from "../../components/Post/Post";
+import "./Bookmark.css";
 
-const Home = () => {
+const Bookmark = () => {
   return (
     <div className="Home">
       <Navbar />
@@ -32,13 +31,7 @@ const Home = () => {
         </div>
 
         <div className="feed">
-          <CreatePost />
-
           <div className="expoloreFeedContainer">
-            <Post />
-            <Post />
-            <Post />
-            <Post />
             <Post />
             <Post />
           </div>
@@ -79,4 +72,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Bookmark;

@@ -1,0 +1,9 @@
+.exploreBtnContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.exploreBtns {
+  width: 100% !important;
+}
