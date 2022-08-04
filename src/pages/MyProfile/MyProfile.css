@@ -1,0 +1,65 @@
+.myProfileBioContainer {
+  display: flex;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid grey;
+}
+
+.myBioContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bioProfileImg {
+  width: 8rem;
+  height: 8rem;
+}
+
+.bioContent {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.bioLinkContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #4bb3ed;
+}
+
+.bioLink {
+  color: #4bb3ed;
+}
+
+.bioLink:hover {
+  text-decoration: underline;
+}
+
+.followAndFollowingContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.followingContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.followerContanier {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.greyText {
+  color: grey;
+}
+
+.editBioBtnContainer {
+  margin-left: auto;
+}
+
+.editBioBtn {
+}

@@ -1,0 +1,45 @@
+.signup-form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form {
+  width: 20rem;
+  margin-top: 12px;
+  border: 2px solid var(--beyou-primary);
+  background-color: var(--beyou-background);
+}
+
+.signup-heading {
+  text-align: center;
+  color: var(--beyou-primary);
+}
+
+.signup-btn {
+  width: 100%;
+}
+
+.form-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-btn-link {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--beyou-white);
+}
+
+label {
+  color: var(--beyou-white);
+}
+
+.form-checkbox {
+  display: flex;
+  justify-content: space-around;
+}

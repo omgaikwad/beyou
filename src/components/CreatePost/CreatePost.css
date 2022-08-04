@@ -1,0 +1,29 @@
+.CreatePost {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  padding-bottom: 1rem;
+}
+
+.postTextarea {
+  background-color: transparent;
+  color: white;
+  padding: 1rem;
+  border: none;
+  font-size: 1rem;
+}
+.postTextarea:focus {
+  outline: none;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.postBtn {
+  width: 5rem;
+  margin-left: auto;
+}

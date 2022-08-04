@@ -1,0 +1,92 @@
+.homeContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "navigation feed feed search";
+  color: white;
+}
+
+.navigationTab {
+  grid-area: navigation;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  position: sticky;
+  top: 2rem;
+}
+
+.navigationContainer {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.navigationBtn {
+  border: none;
+  background-color: transparent;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.createNewPostBtn {
+  width: 100%;
+  background-color: var(--beyou-primary);
+  color: var(--beyou-white);
+  padding: 8px 8px;
+}
+
+.feed {
+  grid-area: feed;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border-left: 1px solid grey;
+
+  border-right: 1px solid grey;
+}
+
+.searchContainer {
+  grid-area: search;
+  height: fit-content;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 2rem;
+}
+
+.followSuggestion {
+  width: 75%;
+  padding: 2rem 1rem;
+  /* border: 2px solid var(--beyou-primary);
+  border-radius: 1rem; */
+}
+
+.whoToFollowHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.beyouBtn {
+  background-color: transparent;
+  color: var(--beyou-primary);
+  border: none;
+  font-weight: 600;
+}
+
+.followSuggestedUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}

@@ -1,10 +1,14 @@
 @import url("https://crimsonui-beta.netlify.app/css/components.css");
 
 :root {
-  --beyou-primary: #fa2742;
+  /* --beyou-primary: #fa2742; */
+  --beyou-primary: #ff9a00;
+  --primary-color: #ff9a00;
   --beyou-text: #373833;
   --beyou-white: #ffffff;
-  --beyou-background: #e8eae3;
+  /* --beyou-background: #f5f5f5; */
+  /* --beyou-background: #121212; */
+  --beyou-background: #121212;
 }
 body {
   background-color: var(--beyou-background);

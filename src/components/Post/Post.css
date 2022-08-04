@@ -1,0 +1,35 @@
+.Post {
+  height: fit-content;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-bottom: 1px solid grey;
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+}
+
+.postContentContainer {
+  color: white;
+  margin: 8px 0 0 4.8rem;
+  width: 80%;
+}
+
+.postEllipsis {
+  margin: 0 1rem 0 auto;
+  color: white;
+}
+
+.postButtonsContainer {
+  width: 80%;
+  margin: 1rem 0 0 4.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.postButton {
+  background-color: transparent;
+  color: white;
+  border: none;
+}

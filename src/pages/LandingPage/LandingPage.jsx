@@ -13,7 +13,7 @@ const LandingPage = () => {
       </div>
       <div className="right-cta-container">
         <div className="right-cta-para">
-          <h1>be as real on socials as in real life</h1>
+          <h1>be real</h1>
           <h1>be unfiltered</h1>
         </div>
         <img className="beyou-logo" src="/assets/logo/beyou-logo.png" alt="" />
