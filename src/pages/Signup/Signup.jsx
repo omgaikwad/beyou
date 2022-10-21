@@ -1,6 +1,7 @@
 import React from "react";
 import "./Signup.css";
 import Navbar from "../../components/Navbar/Navbar";
+import { Link } from "react-router-dom";
 
 const Signup = () => {
   return (
@@ -20,8 +21,12 @@ const Signup = () => {
 
           <div className="login-password-container">
             <label htmlFor="form-password">Create Password</label>
-            <input id="form-password" type="password" placeholder="·········" />
-            <i class="fa-solid fa-eye-slash eye-icon"></i>
+            <input
+              id="form-password"
+              type="password"
+              placeholder="••••••••••••••"
+            />
+            <i className="fa-solid fa-eye-slash eye-icon"></i>
           </div>
 
           <div className="login-password-container">
@@ -29,9 +34,9 @@ const Signup = () => {
             <input
               id="form-password-again"
               type="password"
-              placeholder="·········"
+              placeholder="••••••••••••••"
             />
-            <i class="fa-solid fa-eye-slash eye-icon"></i>
+            <i className="fa-solid fa-eye-slash eye-icon"></i>
           </div>
 
           <div className="form-checkbox">
@@ -41,9 +46,10 @@ const Signup = () => {
 
           <div className="form-buttons">
             <button className="btn btn-primary signup-btn">Sign Up</button>
-            <a href="#" class="btn-link form-btn-link">
-              Already have an Account <i class="fa-solid fa-angle-right"></i>
-            </a>
+            <Link to="/login" className="btn-link form-btn-link">
+              Already have an Account
+              <i className="fa-solid fa-angle-right"></i>
+            </Link>
           </div>
         </form>
       </div>

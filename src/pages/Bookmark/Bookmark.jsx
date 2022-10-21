@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import ProfileTab from "../../components/ProfileTab/ProfileTab";
 import Post from "../../components/Post/Post";
 import "./Bookmark.css";
+import NavigationTab from "../../components/NavigationTab/NavigationTab";
 
 const Bookmark = () => {
   return (
@@ -10,25 +11,7 @@ const Bookmark = () => {
       <Navbar />
 
       <div className="homeContainer">
-        <div className="navigationTab">
-          <div className="navigationContainer">
-            <button className="navigationBtn">
-              <i class="fa-solid fa-house"></i> Home
-            </button>
-
-            <button className="navigationBtn">
-              <i class="fa-solid fa-rocket"></i> Explore
-            </button>
-
-            <button className="navigationBtn">
-              <i class="fa-solid fa-bookmark"></i> Bookmarks
-            </button>
-
-            <button className="navigationBtn">
-              <i class="fa-solid fa-user"></i> Profile
-            </button>
-          </div>
-        </div>
+        <NavigationTab />
 
         <div className="feed">
           <div className="expoloreFeedContainer">

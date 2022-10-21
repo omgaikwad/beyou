@@ -1,5 +1,6 @@
 import React from "react";
 import "./LandingPage.css";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
@@ -18,7 +19,9 @@ const LandingPage = () => {
         </div>
         <img className="beyou-logo" src="/assets/logo/beyou-logo.png" alt="" />
         <div className="cta-btn-container">
-          <button className="btn btn-primary btn-join">Join Now</button>
+          <Link to="/signup">
+            <button className="btn btn-primary btn-join">Join Now</button>
+          </Link>
         </div>
       </div>
     </div>

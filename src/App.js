@@ -10,29 +10,20 @@ import LandingPage from "./pages/LandingPage/LandingPage";
 import Login from "./pages/Login/Login";
 import MyProfile from "./pages/MyProfile/MyProfile";
 import Signup from "./pages/Signup/Signup";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div
-      className="App"
-      // style={{
-      //   display: "flex",
-      //   justifyContent: "center",
-      //   alignItems: "center",
-      //   height: "100vh",
-      // }}
-    >
-      {/* <LandingPage /> */}
-      {/* <Signup /> */}
-      {/* <Login /> */}
-      <Home />
-      {/* <CreatePost /> */}
-      {/* <Post /> */}
-      {/* <Bookmark /> */}
-      {/* <Explore /> */}
-      {/* <MyProfile /> */}
-
-      {/* <ProfileTab userName={"OmGaikwad_"} name={"Om Gaikwad"} /> */}
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/explore" element={<Explore />} />
+        <Route path="/myprofile" element={<MyProfile />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/bookmark" element={<Bookmark />} />
+      </Routes>
     </div>
   );
 }

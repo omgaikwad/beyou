@@ -7,7 +7,7 @@
 
 .signup-form {
   width: 20rem;
-  margin-top: 12px;
+  margin-top: 8px;
   border: 2px solid var(--beyou-primary);
   background-color: var(--beyou-background);
 }
@@ -24,7 +24,7 @@
 .form-buttons {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 8px;
 }
 
 .form-btn-link {

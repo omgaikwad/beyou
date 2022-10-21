@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import "./Login.css";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -21,7 +22,7 @@ const Login = () => {
             <input
               id="form-login-password"
               type="password"
-              placeholder="·········"
+              placeholder="••••••••••••••"
             />
             <i class="fa-solid fa-eye-slash eye-icon"></i>
           </div>
@@ -38,9 +39,9 @@ const Login = () => {
             <button className="btn btn-primary signup-btn">
               Login as Guest
             </button>
-            <a href="#" class="btn-link form-btn-link">
+            <Link to="/signup" class="btn-link form-btn-link">
               Create new Account <i class="fa-solid fa-angle-right"></i>
-            </a>
+            </Link>
           </div>
         </form>
       </div>

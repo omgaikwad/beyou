@@ -1,0 +1,18 @@
+.navigationTab {
+  grid-area: navigation;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  position: sticky;
+  top: 2rem;
+}
+
+.navigationBtn {
+  cursor: pointer;
+}
+
+.navigationBtn:hover {
+  color: var(--beyou-primary);
+}

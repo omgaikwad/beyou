@@ -1,19 +1,8 @@
 .homeContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "navigation feed feed search";
+  grid-template-areas: "navigation feed feed  search ";
   color: white;
-}
-
-.navigationTab {
-  grid-area: navigation;
-  height: 25rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem;
-  position: sticky;
-  top: 2rem;
 }
 
 .navigationContainer {
@@ -63,7 +52,7 @@
 }
 
 .followSuggestion {
-  width: 75%;
+  width: 100%;
   padding: 2rem 1rem;
   /* border: 2px solid var(--beyou-primary);
   border-radius: 1rem; */

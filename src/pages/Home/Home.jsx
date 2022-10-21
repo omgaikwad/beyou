@@ -4,6 +4,8 @@ import "./Home.css";
 import ProfileTab from "../../components/ProfileTab/ProfileTab";
 import CreatePost from "../../components/CreatePost/CreatePost";
 import Post from "../../components/Post/Post";
+import { Link } from "react-router-dom";
+import NavigationTab from "../../components/NavigationTab/NavigationTab";
 
 const Home = () => {
   return (
@@ -11,25 +13,7 @@ const Home = () => {
       <Navbar />
 
       <div className="homeContainer">
-        <div className="navigationTab">
-          <div className="navigationContainer">
-            <button className="navigationBtn">
-              <i class="fa-solid fa-house"></i> Home
-            </button>
-
-            <button className="navigationBtn">
-              <i class="fa-solid fa-rocket"></i> Explore
-            </button>
-
-            <button className="navigationBtn">
-              <i class="fa-solid fa-bookmark"></i> Bookmarks
-            </button>
-
-            <button className="navigationBtn">
-              <i class="fa-solid fa-user"></i> Profile
-            </button>
-          </div>
-        </div>
+        <NavigationTab />
 
         <div className="feed">
           <CreatePost />
