@@ -1,15 +1,11 @@
 import "./App.css";
-import CreatePost from "./components/CreatePost/CreatePost";
-import Navbar from "./components/Navbar/Navbar";
-import Post from "./components/Post/Post";
-import ProfileTab from "./components/ProfileTab/ProfileTab";
-import Bookmark from "./pages/Bookmark/Bookmark";
-import Explore from "./pages/Explore/Explore";
-import Home from "./pages/Home/Home";
-import LandingPage from "./pages/LandingPage/LandingPage";
-import Login from "./pages/Login/Login";
-import MyProfile from "./pages/MyProfile/MyProfile";
-import Signup from "./pages/Signup/Signup";
+import Bookmark from "./frontend/pages/Bookmark/Bookmark";
+import Explore from "./frontend/pages/Explore/Explore";
+import Home from "./frontend/pages/Home/Home";
+import LandingPage from "./frontend/pages/LandingPage/LandingPage";
+import Login from "./frontend/pages/Login/Login";
+import MyProfile from "./frontend/pages/MyProfile/MyProfile";
+import Signup from "./frontend/pages/Signup/Signup";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
